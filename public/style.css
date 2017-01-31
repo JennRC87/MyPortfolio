@@ -1,0 +1,316 @@
+body {
+  margin: 0px;
+  background-color: #FFF;
+  background-image: url('../images/smokeeffect.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 40px;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #FFF;
+  padding-top: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a, table, p, .skills li {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: lowercase;
+}
+
+.workdescrip a, h1, h3, header ul{
+  font-family: 'Josefin Slab', serif;
+  text-transform: lowercase;
+}
+
+h1{
+  padding: 35px 0px 0px 88px;
+  font-size: 32px;
+}
+
+#redheart{
+  color: #E63946;
+}
+
+h3{
+  font-size: 23px;
+  padding: 0px 0px 0px 88px;
+
+}
+
+.skills li{
+  border-bottom: dotted 1px #725AC1;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  margin-left: 40px;
+  font-size: 17px;
+  display: inline-block;
+
+}
+
+.skills ul{
+  word-spacing: 10px;
+}
+
+.skills, h3{
+  text-align: center;
+}
+
+header li{
+  display: inline;
+}
+
+header ul{
+  font-size: 25px;
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  word-spacing: 136px;
+}
+
+header a{
+  color: #000;
+  padding: 0px 10px;
+  font-size: 22px;
+}
+
+footer{
+/*   background-color: #FFF; */
+  position: fixed;
+  bottom: 0;
+  width: 98.5%;
+  height: 30px;
+  padding: 0;
+  margin: auto;
+
+}
+
+footer p{
+  color: #000;
+  text-align: center;
+  margin: 0 10px 10px 0;
+  padding-top: 5px;
+  font-size: 13px;
+  word-spacing: 2px;
+}
+
+table {
+  color: #000;
+  font-size: 21px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+td{
+  border-bottom: #725AC1 1px dotted;
+  padding: 30px 50px 10px 50px;
+  width: 200px;
+  text-align: center;
+}
+
+table a{
+  color: #000;
+}
+
+.myworkpic{
+  width: 400px;
+  height: 170px;
+  overflow: hidden;
+  padding: 15px 0px;
+  margin-bottom: 10px;
+}
+
+.myworkpic img{
+  width: 100%;
+}
+
+.workdescrip{
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.work-couple{
+  position: relative;
+  float: left;
+  margin: 50px 60px 0px 60px;
+  left: 9%;
+  width: 400px;
+}
+
+#mylogo{
+  width: 480px;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+}
+
+#aboutme{
+  margin: 68px 88px 0px 143px;
+  text-align: right;
+  font-size: 17px;
+  font-size: 20px;
+}
+
+#aboutme, h1{
+    text-shadow: 1px 1px #ECE5E5;
+}
+
+.aboutwork{
+  background-color: rgba(114, 90, 193, 0.7);
+  padding: .5px 5px;
+
+}
+
+.empty{
+  height: 40px;
+}
+
+/* thanks http://ianlunn.github.io/Hover/#effects */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #000;
+  height: 1px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+/* thanks again http://ianlunn.github.io/Hover/#effects */
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #725AC1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: #fff;
+  }
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.hvr-sweep-to-right a:hover{
+  color: #fff;
+}
+
+p.hover-text{
+  margin: 0;
+}
+
+/* http://ahrengot.com/tutorials/switching-text-with-css/ */
+/* Hide original text */
+.hover-text:hover {
+  font-size: 0;
+  text-align: center;
+}
+
+/* Replace original text with value in data-hover */
+.hover-text:hover:before {
+  font-size: 21px;
+  color: #fff;
+  text-align: center;
+  content: attr(data-hover);
+  padding: 30px 50px 10px 0px;
+}
+
+ .unselectable p:hover{
+  -webkit-user-select: all;  /* Chrome all / Safari all */
+  -moz-user-select: all;     /* Firefox all */
+  -ms-user-select: all;      /* IE 10+ */
+  user-select: all;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+  body{
+    margin: 5px;
+  }
+
+  ul{
+    font-size: 10px;
+    padding: ;
+  }
+
+  a{
+    padding: ;
+  }
+
+  footer{
+    margin: ;
+  }
+
+  table{
+    margin-top: ;
+  }
+
+  td{
+    padding: ;
+  }
+
+  .mywork img{
+  width: ;
+}
+
+}
