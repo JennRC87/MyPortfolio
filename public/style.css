@@ -32,8 +32,9 @@ a, table, p, .skills li {
 }
 
 h1{
-  padding: 35px 0px 0px 88px;
+  padding: 35px 0px 10px 88px;
   font-size: 32px;
+  margin-left: 118px;
 }
 
 #redheart{
@@ -50,7 +51,7 @@ h3{
   border-bottom: dotted 1px #725AC1;
   font-size: 15px;
   display: inline-block;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 5px 10px;
   margin-left: 40px;
   font-size: 17px;
   display: inline-block;
@@ -135,6 +136,7 @@ table a{
 
 .workdescrip{
   font-size: 20px;
+  display: inline-block;
   text-align: center;
 }
 
@@ -157,15 +159,19 @@ table a{
 }
 
 #aboutme{
-  margin: 68px 88px 0px 143px;
-  text-align: right;
+  /* margin: 68px 88px 0px 143px; */
+  margin: 68px ;
+  text-align: center;
   font-size: 17px;
   font-size: 20px;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  margin : 20px 400px 50px 321px;
+ /*  box-shadow: 10px 10px 5px grey; */
 }
 
-#aboutme, h1{
+/* #aboutme, h1{
     text-shadow: 1px 1px #ECE5E5;
-}
+} */
 
 .aboutwork{
   background-color: rgba(114, 90, 193, 0.7);
@@ -252,7 +258,7 @@ table a{
   color: #fff;
 }
 
-p.hover-text{
+a.hover-text{
   margin: 0;
 }
 
