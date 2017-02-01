@@ -21,7 +21,7 @@ a{
   text-decoration: none;
 }
 
-a, table, p, .skills li {
+a, table, p, .skills li{
   font-family: 'Josefin Sans', sans-serif;
   text-transform: lowercase;
 }
@@ -43,23 +43,20 @@ h1{
 
 h3{
   font-size: 23px;
-  padding: 0px 0px 0px 88px;
-
 }
 
 .skills li{
-  border-bottom: dotted 1px #725AC1;
+  border-bottom: dotted 1px #9C84CC;
   font-size: 15px;
   display: inline-block;
   padding: 10px 10px 5px 10px;
   margin-left: 40px;
   font-size: 17px;
   display: inline-block;
-
 }
 
-.skills ul{
-  word-spacing: 10px;
+ul.skills{
+  padding: 0px;
 }
 
 .skills, h3{
@@ -112,7 +109,7 @@ table {
 }
 
 td{
-  border-bottom: #725AC1 1px dotted;
+  border-bottom: #9C84CC 1px dotted;
   padding: 30px 50px 10px 50px;
   width: 200px;
   text-align: center;
@@ -134,19 +131,30 @@ table a{
   width: 100%;
 }
 
-a.workdescrip{
-  font-size: 30px;
-  display: inline-block;
+.workdescrip a{
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.workdescrip{
   text-align: center;
 }
 
-
-.work-couple{
+.workcouple{
   position: relative;
   float: left;
   margin: 50px 60px 0px 60px;
   left: 9%;
   width: 400px;
+}
+
+.box{
+  /* blue */
+  background-color: #6ACBBD;
+  /* green */
+  background-color: #84ccb0
+  height: 100px;
 }
 
 #mylogo{
@@ -173,13 +181,26 @@ p#aboutme{
 } */
 
 .aboutwork{
-  background-color: rgba(114, 90, 193, 0.7);
+  background-color: rgba(156, 132, 204, 0.8);
   padding: .5px 5px;
+  color: #FAFAFA;
+  padding: 2px 8px;
+  text-align: center;
 
 }
 
 .empty{
-  height: 40px;
+  height: 70px;
+}
+
+iframe{
+  width: 652px;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  left: 25%;
+  right: 50%;
+  margin-top: 25px;
 }
 
 /* thanks http://ianlunn.github.io/Hover/#effects */
@@ -233,7 +254,7 @@ p#aboutme{
   left: 0;
   right: 0;
   bottom: 0;
-  background: #725AC1;
+  background: #9C84CC;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
