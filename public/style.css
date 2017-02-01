@@ -43,7 +43,7 @@ h1{
 
 h3{
   font-size: 23px;
-  margin: 0px
+  margin: 45px 0px 0px 33px;
 }
 
 .skills li{
@@ -51,11 +51,12 @@ h3{
   font-size: 18px;
   display: inline-block;
   padding-bottom: 5px;
-  margin: 0px 0px 8px 40px ;
+  margin: 0px 0px 6px 40px ;
 }
 
 ul.skills{
   padding: 0px;
+  margin-left: 53px;
 }
 
 .skills, h3{
@@ -176,23 +177,35 @@ p#aboutme{
 
 .aboutwork{
   background-color: rgba(156, 132, 204, 0.8);
-  padding: .5px 5px;
   color: #FAFAFA;
-  padding: 2px 8px;
+  padding: 9px 10px;
   text-align: center;
+}
 
+p.seperation{
+margin: 0;
+}
+
+p.builtw{
+  margin: 8px 0px -10px 0px;
+}
+
+p.skillsu{
+margin: 0;
 }
 
 .empty{
-  height: 70px;
+  height: 100px;
+  position: relative;
+  bottom: -1010px;
+
 }
 
 iframe{
-  width: 652px;
+  width: 550px;
   height: 500px;
-  background-color: white;
   position: absolute;
-  left: 25%;
+  left: 28%;
   right: 50%;
   margin-top: 25px;
 }
