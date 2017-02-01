@@ -134,8 +134,8 @@ table a{
   width: 100%;
 }
 
-.workdescrip{
-  font-size: 20px;
+a.workdescrip{
+  font-size: 30px;
   display: inline-block;
   text-align: center;
 }
