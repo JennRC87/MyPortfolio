@@ -32,8 +32,8 @@ a, table, p, .skills li{
 }
 
 h1{
-  padding: 35px 0px 10px 88px;
-  font-size: 32px;
+  padding: 35px 0px 17px 88px;
+  font-size: 32px
   margin-left: 118px;
 }
 
@@ -43,16 +43,15 @@ h1{
 
 h3{
   font-size: 23px;
+  margin: 0px
 }
 
 .skills li{
   border-bottom: dotted 1px #9C84CC;
-  font-size: 15px;
+  font-size: 18px;
   display: inline-block;
-  padding: 10px 10px 5px 10px;
-  margin-left: 40px;
-  font-size: 17px;
-  display: inline-block;
+  padding-bottom: 5px;
+  margin: 0px 0px 8px 40px ;
 }
 
 ul.skills{
@@ -172,14 +171,8 @@ p#aboutme{
   text-align: center;
   font-size: 17px;
   font-size: 20px;
-  /* background-color: rgba(255, 255, 255, 0.5); */
-  margin : 20px 400px 50px 321px;
- /*  box-shadow: 10px 10px 5px grey; */
+  margin : 0px 392px 35px 282px;
 }
-
-/* #aboutme, h1{
-    text-shadow: 1px 1px #ECE5E5;
-} */
 
 .aboutwork{
   background-color: rgba(156, 132, 204, 0.8);
