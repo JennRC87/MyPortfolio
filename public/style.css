@@ -4,7 +4,7 @@ body {
   background-image: url('../images/smokeeffect.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center 40px; */
+  background-position: center 40px;
   background-attachment: fixed;
 }
 
@@ -317,9 +317,7 @@ a.hover-text{
 
 @media only screen and (max-width: 800px) {
   body{
-    margin: 5px;
-    /* background-position: -59px center; */
-   color: green;
+    background-position: -134px 67px;
   }
 
   #mylogo{
@@ -329,9 +327,12 @@ a.hover-text{
 
   header{
     display: block;
-    font-size: 2px;
+ /*    font-size: 2px; */
   }
 
+  header li{
+    width: 100%;
+  }
 /*   ul{
     font-size: 10px;
     padding: ;
