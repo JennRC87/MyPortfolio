@@ -322,6 +322,10 @@ a.hover-text{
     background-color: green;
   }
 
+  header{
+    display: block;
+  }
+
   ul{
     font-size: 10px;
     padding: ;
