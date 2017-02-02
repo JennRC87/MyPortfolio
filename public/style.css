@@ -4,7 +4,7 @@ body {
   background-image: url('../images/smokeeffect.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center 40px;
+/*   background-position: center 40px; */
   background-attachment: fixed;
 }
 
@@ -315,14 +315,11 @@ a.hover-text{
 
 
 
-
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px) {
   body{
     margin: 5px;
     background-position: -59px center;
-
-
+    background-color: green;
   }
 
   ul{
@@ -348,6 +345,5 @@ a.hover-text{
 
   .mywork img{
   width: ;
-}
-
+  }
 }
