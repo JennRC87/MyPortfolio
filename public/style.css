@@ -11,7 +11,6 @@ body {
 header {
   background-color: #FFF;
   padding-top: 10px;
-  width: auto;
 }
 
 ul{
@@ -44,20 +43,23 @@ h1{
 
 h3{
   font-size: 23px;
-  margin: 45px 0px 0px 33px;
+  margin: 50px 0px 10px 0px;
 }
 
 .skills li{
   border-bottom: dotted 1px #9C84CC;
   font-size: 18px;
   display: inline-block;
-  padding-bottom: 5px;
-  margin: 0px 0px 6px 40px ;
+  padding-bottom: 2px;
+  margin: 0px 0px 16px 40px ;
+}
+
+h3, ul.skills{
+  margin-left: -60px;
 }
 
 ul.skills{
   padding: 0px;
-  margin-left: 53px;
 }
 
 .skills, h3{
@@ -169,9 +171,7 @@ table a{
 }
 
 p#aboutme{
-  /* margin: 68px ; */
   text-align: center;
-  font-size: 17px;
   font-size: 20px;
   margin : 0px 392px 35px 282px;
 }
