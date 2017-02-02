@@ -320,6 +320,9 @@ a.hover-text{
 @media screen and (max-width: 600px){
   body{
     margin: 5px;
+    background-position: -59px center;
+
+
   }
 
   ul{
