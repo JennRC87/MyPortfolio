@@ -330,9 +330,15 @@ a.hover-text{
  /*    font-size: 2px; */
   }
 
-  header li{
-    width: 100%;
+  header ul{
+    display: block;
+    width: 100px;
   }
+
+  header li{
+    text-align: right;
+  }
+
 /*   ul{
     font-size: 10px;
     padding: ;
