@@ -178,7 +178,7 @@ p#aboutme{
 
 .aboutwork{
   background-color: rgba(156, 132, 204, 0.8);
-  color: #FAFAFA;
+  color: white;
   padding: 9px 10px;
   text-align: center;
 }
@@ -326,40 +326,39 @@ a.hover-text{
   }
 
   header{
-    display: block;
+    display: inline;
  /*    font-size: 2px; */
   }
 
   header ul{
-    display: block;
+    display: inline;
     width: 100px;
+    word-spacing: 1px
   }
 
   header li{
-    text-align: right;
+    margin-left: 220px;
+  }
+
+  header a{
   }
 
 /*   ul{
     font-size: 10px;
     padding: ;
   }
-
   a{
     padding: ;
   }
-
   footer{
     margin: ;
   }
-
   table{
     margin-top: ;
   }
-
   td{
     padding: ;
   }
-
   .mywork img{
   width: ;
   } */
