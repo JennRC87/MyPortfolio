@@ -177,8 +177,8 @@ p#aboutme{
 }
 
 .aboutwork{
-  background-color: rgba(156, 132, 204, 0.8);
-  color: white;
+  background-color: rgba(156, 132, 204, 0.9);
+  color: #fff;
   padding: 9px 10px;
   text-align: center;
 }
