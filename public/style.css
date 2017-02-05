@@ -314,8 +314,7 @@ a.hover-text{
 }
 
 
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   body{
     background-position: 0 0;
   }
@@ -339,27 +338,11 @@ a.hover-text{
 
   header ul{
     display: inline;
-    word-spacing: 0;
+    word-spacing: 8px;
   }
 
+a.hover-text{
+  /* color: white; */
+}
 
-/*   ul{
-    font-size: 10px;
-    padding: ;
-  }
-  a{
-    padding: ;
-  }
-  footer{
-    margin: ;
-  }
-  table{
-    margin-top: ;
-  }
-  td{
-    padding: ;
-  }
-  .mywork img{
-  width: ;
-  } */
 }
