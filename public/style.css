@@ -33,7 +33,7 @@ a, table, p, .skills li{
 
 h1{
   padding: 35px 0px 17px 88px;
-  font-size: 32px
+  font-size: 32px;
   margin-left: 118px;
 }
 
@@ -317,7 +317,7 @@ a.hover-text{
 
 @media only screen and (max-width: 800px) {
   body{
-    background-position: -134px 67px;
+    background-position: -94px 0px;
   }
 
   #mylogo{
@@ -331,18 +331,32 @@ a.hover-text{
  /*    font-size: 2px; */
   }
 
-  header ul{
-    display: inline;
-    width: 100px;
-    word-spacing: 1px
+  header li{
+    /* margin-left: 230px; */
+    text-align: right;
   }
 
-  header li{
-    margin-left: 220px;
+  header ul{
+    display: inline-block;
+    width: 100px;
+    word-spacing: 0px;
+    text-align: right;
   }
 
   header a{
   }
+
+/*   header li{
+  display: inline;
+}
+
+header ul{
+  font-size: 25px;
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  word-spacing: 136px;
+} */
 
 /*   ul{
     font-size: 10px;
