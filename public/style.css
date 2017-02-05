@@ -329,22 +329,25 @@ a.hover-text{
   }
 
   header{
-    display: inline;
     background-color: transparent;
- /*    font-size: 2px; */
   }
 
-  header li{
+  header a{
+    font-size: 18px;
+    }
+
+/*   header li{
     margin-top: 12px;
     text-align: right;
     position: absolute;
     right: -260%;
   }
-
+ */
   header ul{
-    display: inline-block;
-    width: 100px;
+    display: inline;
     word-spacing: 0px;
+    text-align: center;
+    margin-left: 16px;
   }
 
 
