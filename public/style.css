@@ -338,7 +338,7 @@ a.hover-text{
 
   header ul{
     display: inline;
-    word-spacing: 8px;
+    word-spacing: 0.3em;
   }
 
 a.hover-text{
@@ -346,3 +346,4 @@ a.hover-text{
 }
 
 }
+
