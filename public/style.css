@@ -316,6 +316,43 @@ a.hover-text{
 
 @media only screen and (max-width: 800px) {
   body{
+    background-position: 0px center;
+  }
+
+  #mylogo{
+    margin: auto;
+    width: 270px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  header{
+    text-align: center;
+    width: 100%;
+  }
+
+  header a{
+    /* font-size: 18px; */
+    font-size: 60%;
+    }
+
+  header ul{
+    display: inline;
+    word-spacing: 0px;
+  }
+
+a.hover-text{
+  /* color: white; */
+}
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    body{
     background-position: 0 0;
   }
 
@@ -340,12 +377,11 @@ a.hover-text{
 
   header ul{
     display: inline;
-    word-spacing: 0;
+    word-spacing: 0px;
   }
 
-a.hover-text{
+  a.hover-text{
   /* color: white; */
-}
+  }
 
 }
-
