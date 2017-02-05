@@ -321,7 +321,7 @@ a.hover-text{
   }
 
   #mylogo{
-    width: 219px;
+    width: 270px;
     position: fixed;
     left: 50%;
     right: 50%;
@@ -336,18 +336,11 @@ a.hover-text{
     font-size: 18px;
     }
 
-/*   header li{
-    margin-top: 12px;
-    text-align: right;
-    position: absolute;
-    right: -260%;
-  }
- */
   header ul{
     display: inline;
     word-spacing: 0px;
     text-align: center;
-    margin-left: 16px;
+    margin-left: 20px;
   }
 
 
