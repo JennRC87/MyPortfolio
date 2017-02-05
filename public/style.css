@@ -323,14 +323,14 @@ a.hover-text{
   #mylogo{
     width: 270px;
     position: fixed;
+    top: 50%;
     left: 50%;
-    right: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -95%);
   }
 
   header{
     background-color: transparent;
-    margin: auto 0;
+    text-align: center;
   }
 
   header a{
@@ -339,9 +339,7 @@ a.hover-text{
 
   header ul{
     display: inline;
-    word-spacing: 0px;
-    text-align: center;
-/*     margin-left: 8px; */
+    word-spacing: 0;
   }
 
 
