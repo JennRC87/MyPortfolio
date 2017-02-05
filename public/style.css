@@ -321,8 +321,11 @@ a.hover-text{
   }
 
   #mylogo{
-    margin-top: 150px;
-    width: 119px;
+    width: 219px;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 100%);
   }
 
   header{
@@ -332,31 +335,18 @@ a.hover-text{
   }
 
   header li{
-    /* margin-left: 230px; */
+    margin-top: 12px;
     text-align: right;
+    position: absolute;
+    right: -260%;
   }
 
   header ul{
     display: inline-block;
     width: 100px;
     word-spacing: 0px;
-    text-align: right;
   }
 
-  header a{
-  }
-
-/*   header li{
-  display: inline;
-}
-
-header ul{
-  font-size: 25px;
-  margin: 0px;
-  padding: 10px 0px;
-  text-align: center;
-  word-spacing: 136px;
-} */
 
 /*   ul{
     font-size: 10px;
