@@ -315,9 +315,9 @@ a.hover-text{
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   body{
-    background-position: -94px 0px;
+    background-position: 0px 0px;
   }
 
   #mylogo{
@@ -325,11 +325,12 @@ a.hover-text{
     position: fixed;
     left: 50%;
     right: 50%;
-    transform: translate(-50%, 60%);
+    transform: translate(-50%, 50%);
   }
 
   header{
     background-color: transparent;
+    margin: auto 0;
   }
 
   header a{
@@ -340,7 +341,7 @@ a.hover-text{
     display: inline;
     word-spacing: 0px;
     text-align: center;
-    margin-left: 8px;
+/*     margin-left: 8px; */
   }
 
 
