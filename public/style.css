@@ -211,6 +211,10 @@ iframe{
   margin-top: 25px;
 }
 
+img.smalllogo{
+  width: 17px;
+}
+
 /* thanks http://ianlunn.github.io/Hover/#effects */
 .hvr-underline-from-left {
   display: inline;
@@ -457,7 +461,8 @@ a.hover-text{
 
   p#aboutme{
     margin: auto;
-    top: 50%;
+    position: absolute;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 30px;
