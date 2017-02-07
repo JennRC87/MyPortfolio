@@ -438,6 +438,7 @@ a.hover-text{
   header{
     text-align: center;
     width: 100%;
+    padding-bottom: 7px;
   }
 
   header a{
@@ -521,7 +522,7 @@ a.hover-text{
 
   iframe{
     height: 320px;
-    width: 220px;
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
