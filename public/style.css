@@ -317,8 +317,7 @@ a.hover-text{
   user-select: all;
 }
 
-
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 451px) and (max-width: 800px) {
   body{
     background-position: -100px 0;
   }
@@ -460,40 +459,44 @@ a.hover-text{
   }
 
   p#aboutme{
-    margin: auto;
-    position: absolute;
-    top: 45%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 226px;
+    font-size: 15px;
+    margin: 0px 0px 0px 40px;
+ /*    top: 60%;
     left: 50%;
     transform: translate(-50%, -85%);
-    font-size: 15px;
+ */
   }
 
   h3{
     position: absolute;
     left: 20px;
-    margin-top: 250px;
+    margin-top: 23px;
     font-size: 23px
   }
 
   .skills{
     width: 400px;
     margin: 0;
-    position: inherit;
-    top: 75%;
+    /* position: relative; */
+    top: 88%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15px;
-    margin: 0;
   }
 
   .skills li{
     font-size: 15px;
+    padding:0 8px;
     margin: 0;
   }
 
   ul.skills{
     margin-top: 329px;
-    position: absolute;
+    /* position: absolute; */
     margin: 0;
   }
 
