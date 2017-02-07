@@ -510,12 +510,13 @@ a.hover-text{
   }
 
   td{
-    width: 50px;
+    width: 160px;
     font-size: 15px;
   }
 
-  .hover-text:hover:before {
+  a.hover-text:hover:before {
     font-size: 15px;
+    text-align: center;
   }
 
   iframe{
