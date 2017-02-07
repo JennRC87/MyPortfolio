@@ -500,4 +500,22 @@ a.hover-text{
     margin: 0;
   }
 
+   table{
+/*     display: block;
+    margin: 0; */
+    position: relative;
+    right: 50%;
+    left: -1%;
+    margin-top: 107px;
+  }
+
+  td{
+    width: 50px;
+    font-size: 15px;
+  }
+
+  .hover-text:hover:before {
+    font-size: 15px;
+  }
+
 }
