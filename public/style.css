@@ -455,8 +455,8 @@ a.hover-text{
   /* color: white; */
   }
   h1{
-    padding: 20px 0px 28px 48px;
-    margin-left: -36px;
+    padding: 20px 0px 28px 56px;
+    font-size: 23px
   }
 
   p#aboutme{
@@ -464,8 +464,31 @@ a.hover-text{
     position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
+    transform: translate(-50%, -85%);
+    font-size: 15px;
+  }
+
+  h3{
+    position: absolute;
+    left: 20px;
+    margin-top: 250px;
+    font-size: 23px
+  }
+
+  .skills{
+    width: 400px;
+    margin: 0;
+  }
+
+  .skills li{
+    font-size: 15px;
+    margin: 0;
+  }
+
+  ul.skills{
+    margin-top: 329px;
+    position: absolute;
+    margin: 0;
   }
 
 }
