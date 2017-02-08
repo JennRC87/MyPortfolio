@@ -537,14 +537,15 @@ a.hover-text{
   }
 
   .myworkpic, .aboutwork{
-    width: 280px;
+    width: 83.33%;
   }
 
  .myworkpic{
     margin: 0;
     padding-top: 0;
-    height: 110px;
+    height: 80px;
   }
+
    .myworkpic img{
     width: 100%;
   }
@@ -568,9 +569,13 @@ a.hover-text{
   }
 
   .workcouple{
-    float: left;
-    left: -5%;
-    width: 400px;
+    width: 83.33%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-57%, 0%);
+    margin: 17px 60px 0px 50px;
   }
 
     .seperation{
