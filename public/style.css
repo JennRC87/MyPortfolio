@@ -457,14 +457,14 @@ a.hover-text{
   h1{
     padding: 0;
     font-size: 23px;
-    margin: 10px 0 0 11px;
+    margin: 21px 0 0 11px;
   }
 
   p#aboutme{
     margin: 0 auto;
     width: 83.33%;
     font-size: 15px;
-    margin-top: 12px;
+    margin-top: 26px;
   }
 
   h3{
@@ -491,6 +491,7 @@ a.hover-text{
   .skills li{
     font-size: 10px;
     margin: 2px 5px;
+    display: block;
 
   /*   padding:0 8px;
     margin: 0; */
