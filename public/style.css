@@ -569,13 +569,13 @@ a.hover-text{
   }
 
   .workcouple{
+    display: block;
     width: 83.33%;
-    margin: 0;
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 62.5%;
     transform: translate(-57%, 0%);
-    margin: 17px 60px 0px 50px;
+    margin: 17px auto 0px auto;
   }
 
     .seperation{
