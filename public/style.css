@@ -387,7 +387,7 @@ a.hover-text{
   /*   transform: translate(-50%, -50%); */
   }
 
-  myworkpic{
+  .myworkpic{
   width: 200px;
   height: 170px;
   overflow: hidden;
@@ -522,12 +522,47 @@ a.hover-text{
 
   iframe{
     height: 370px;
-    width: 280px;
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
+  }
+
+  .myworkpic, .aboutwork{
+    width: 280px;
+  }
+
+ .myworkpic{
+    margin: 0;
+    padding-top: 0;
+    height: 110px;
+  }
+   .myworkpic img{
+    width: 100%;
+  }
+
+  .aboutwork{
+    padding: 0;
+  }
+
+  .empty{
+    height: 260px;
+  }
+
+  .workdescrip a{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .workcouple{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 6.5%;
+    right: 0;
+
   }
 
 }
