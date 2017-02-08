@@ -455,50 +455,53 @@ a.hover-text{
   /* color: white; */
   }
   h1{
-    padding: 20px 0px 28px 56px;
-    font-size: 23px
+    padding: 0;
+    font-size: 23px;
+    margin: 10px 0 0 11px;
   }
 
   p#aboutme{
     margin: 0 auto;
-    display: block;
-    position: relative;
     width: 226px;
     font-size: 15px;
-    margin: 0px 0px 0px 40px;
- /*    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -85%);
- */
+    margin-top: 12px;
   }
 
   h3{
-    position: absolute;
-    left: 20px;
-    margin-top: 23px;
+    margin: 10px 0 0 11px;
+    text-align: left;
+    font-size: 23px
+  /*   position: absolute; */
+    /* left: 20px; */
+    /* margin-top: 23px; */
     font-size: 23px
   }
 
   .skills{
-    width: 400px;
-    margin: 0;
+    width: 226px;
+    margin: 0 auto;
     /* position: relative; */
-    top: 88%;
+/*     top: 88%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 15px;
+    transform: translate(-50%, -50%); */
+    font-size: 10px;
+    margin-top: 45px;
   }
 
   .skills li{
-    font-size: 15px;
-    padding:0 8px;
-    margin: 0;
+    font-size: 10px;
+    margin: 2px 5px;
+
+  /*   padding:0 8px;
+    margin: 0; */
   }
 
   ul.skills{
-    margin-top: 329px;
+    margin: 0 auto;
+    margin-top: 12px;
+ /*    margin-top: 329px; */
     /* position: absolute; */
-    margin: 0;
+/*     margin: 0; */
   }
 
    table{
@@ -568,7 +571,12 @@ a.hover-text{
     margin-right: -50%;
     transform: translate(-50%, -11%) }
 
+    .seperation{
+      padding: 8px 7px 0 7px;
+    }
+
+    .skillsu{
+      padding-bottom: 8px;
+    }
 
   }
-
-}
