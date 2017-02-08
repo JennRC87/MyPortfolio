@@ -198,7 +198,7 @@ margin: 0;
 .empty{
   height: 100px;
   position: relative;
-  bottom: -1010px;
+  bottom: -610px;
 
 }
 
@@ -451,6 +451,10 @@ a.hover-text{
     word-spacing: 0px;
   }
 
+  footer{
+    background-color: #fff;
+  }
+
   a.hover-text{
   /* color: white; */
   }
@@ -477,32 +481,30 @@ a.hover-text{
     font-size: 23px
   }
 
+  br{
+    display: none;
+  }
+
   .skills{
-    width: 83.33%;
-    margin: 0 auto;
-    /* position: relative; */
-/*     top: 88%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    margin: 0;
     font-size: 15px;
     margin-top: 45px;
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%, 0);
   }
 
   .skills li{
-    font-size: 10px;
-    margin: 2px 5px;
+    margin: 0;
+    font-size: 15px;
     display: block;
-
-  /*   padding:0 8px;
-    margin: 0; */
+    width: 120px;
   }
 
   ul.skills{
     margin: 0 auto;
     margin-top: 12px;
- /*    margin-top: 329px; */
-    /* position: absolute; */
-/*     margin: 0; */
+    text-align: center;
   }
 
    table{
@@ -566,15 +568,14 @@ a.hover-text{
   }
 
   .workcouple{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -11%) }
+    float: left;
+    left: 76px;
+    width: 400px;
+  }
 
     .seperation{
       padding: 8px 7px 0 7px;
-    }
+  }
 
     .skillsu{
       padding-bottom: 8px;
