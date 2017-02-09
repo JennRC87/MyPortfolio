@@ -1,3 +1,9 @@
+/*  html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+  } */
+
 body {
   margin: 0px;
   background-color: #FFF;
@@ -636,7 +642,9 @@ a.hover-text{
 
     .container{
       height: 100%;
-      margin-bottom: 12px;
+      margin-bottom: 7px;
+      position: absolute;
+      overflow: auto;
     }
 
   }
