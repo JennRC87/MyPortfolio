@@ -24,7 +24,7 @@ a{
 a, table, p, .skills li{
   font-family: 'Josefin Sans', sans-serif;
   text-transform: lowercase;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .workdescrip a, h1, h3, header ul{
