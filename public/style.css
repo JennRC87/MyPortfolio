@@ -24,7 +24,7 @@ a{
 a, table, p, .skills li{
   font-family: 'Josefin Sans', sans-serif;
   text-transform: lowercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .workdescrip a, h1, h3, header ul{
@@ -171,7 +171,7 @@ table a{
   transform: translate(-50%, -50%);
 }
 
-p#aboutme{
+p.aboutme{
   text-align: center;
   font-size: 20px;
   margin : 0px 392px 35px 282px;
@@ -363,7 +363,7 @@ a.hover-text{
     font-size: px;
   }
 
-  p#aboutme {
+  p.aboutme {
     text-align: center;
     font-size: 20px;
     margin: 0px 60px 35px 302px;
@@ -500,7 +500,7 @@ a.hover-text{
     margin: 21px 0 0 11px;
   }
 
-  p#aboutme{
+  p.aboutme{
     margin: 0 auto;
     width: 83.33%;
     font-size: 15px;
