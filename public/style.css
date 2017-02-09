@@ -536,7 +536,7 @@ a.hover-text{
     font-size: 15px;
     display: block;
     width: 120px;
-    padding: 4px 0;
+    margin: 3px 0;
   }
 
   ul.skills{
