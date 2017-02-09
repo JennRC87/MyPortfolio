@@ -645,6 +645,7 @@ a.hover-text{
       margin-bottom: 20%;
       position: absolute;
       overflow: auto;
+      background-color: green;
     }
 
   }
