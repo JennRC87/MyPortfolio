@@ -24,12 +24,15 @@ a{
 a, table, p, .skills li{
   font-family: 'Josefin Sans', sans-serif;
   text-transform: lowercase;
-  /* font-weight: 500; */
 }
 
 .workdescrip a, h1, h3, header ul{
   font-family: 'Josefin Slab', serif;
   text-transform: lowercase;
+}
+
+p.aboutme, h1, h3, ul.skills{
+  text-shadow: 1px 1px 2px #ECE5E5;
 }
 
 h1{
@@ -86,7 +89,6 @@ header a{
 }
 
 footer{
-/*   background-color: #FFF; */
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -154,14 +156,6 @@ table a{
   width: 400px;
 }
 
-.box{
-  /* blue */
-  background-color: #6ACBBD;
-  /* green */
-  background-color: #84ccb0
-  height: 100px;
-}
-
 #mylogo{
   width: 480px;
   margin: auto;
@@ -175,10 +169,6 @@ p.aboutme{
   text-align: center;
   font-size: 20px;
   margin : 0px 392px 35px 282px;
-}
-
-p.aboutme, h1, h3, ul.skills{
-  text-shadow: 1px 1px #ECE5E5;
 }
 
 .aboutwork{
