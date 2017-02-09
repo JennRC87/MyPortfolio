@@ -32,7 +32,7 @@ a, table, p, .skills li{
 }
 
 p.aboutme, h1, h3, ul.skills{
-  text-shadow: 1px 0px 0px #fff;
+  text-shadow: 1px 0px 1px #fff;
 }
 
 h1{
