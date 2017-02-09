@@ -24,6 +24,7 @@ a{
 a, table, p, .skills li{
   font-family: 'Josefin Sans', sans-serif;
   text-transform: lowercase;
+  font-weight: 600;
 }
 
 .workdescrip a, h1, h3, header ul{
@@ -504,7 +505,6 @@ a.hover-text{
     width: 83.33%;
     font-size: 15px;
     margin-top: 26px;
-    font-weight: 600;
   }
 
   h3{
@@ -535,7 +535,6 @@ a.hover-text{
     font-size: 15px;
     display: block;
     width: 120px;
-    font-weight: 600;
   }
 
   ul.skills{
