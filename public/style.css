@@ -36,7 +36,7 @@ p.aboutme, h1, h3, ul.skills{
 }
 
 h1{
-  padding: 35px 0px 17px 88px;
+  padding: 15px 0px 17px 88px;
   font-size: 32px;
   margin-left: 118px;
 }
@@ -93,7 +93,7 @@ footer{
   bottom: 0;
   width: 100%;
   height: 30px;
-  padding: 0;
+  padding: 0 0 0 5px;
   margin: auto;
 
 }
@@ -306,14 +306,20 @@ a.hover-text{
   padding: 30px 50px 10px 0px;
 }
 
- .unselectable p:hover{
-  -webkit-user-select: all;  /* Chrome all / Safari all */
-  -moz-user-select: all;     /* Firefox all */
-  -ms-user-select: all;      /* IE 10+ */
-  user-select: all;
+@media only screen and (min-width: 801px) and (max-width: 1050px) {
+
+  body{
+    background-position: -133px 0px;
+
+  }
+
+  #mylogo{
+    width: 800px;
+  }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1050px) {
+
   .workcouple{
   position: relative;
   float: left;
@@ -326,11 +332,15 @@ a.hover-text{
   .empty{
     height: 56%;
   }
+
+  table{
+    margin: 170px 2px 2px 514px;
+  }
 }
 
 @media only screen and (min-width: 451px) and (max-width: 800px) {
   body{
-    background-position: -41px 0;
+    background-position: 0 0;
   }
 
   #mylogo{
@@ -434,9 +444,6 @@ a.hover-text{
   .skillsu{
     padding-bottom: 9px;
   }
-  /* table{
-    margin-top: 230px
-  } */
 
   table{
     margin: 114px 2px 2px 380px;
@@ -453,7 +460,7 @@ a.hover-text{
 
 @media only screen and (max-width: 450px) {
     body{
-    background-position: 0 0;
+    background-position: 0 center;
   }
 
   #mylogo{
@@ -529,6 +536,7 @@ a.hover-text{
     font-size: 15px;
     display: block;
     width: 120px;
+    padding-top: 4px;
   }
 
   ul.skills{
