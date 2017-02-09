@@ -634,4 +634,9 @@ a.hover-text{
       top: 0;
     }
 
+    .container{
+      height: 100%;
+      margin-bottom: 12px;
+    }
+
   }
