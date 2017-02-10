@@ -685,9 +685,9 @@ a.hover-text{
       width: 245px;
       top: 50%;
       left: 50%;
-      margin-left: -27%;
-      margin-top: 32%;
-      position: relative;
+      margin-left: 0%;
+      margin-top: 0%;
+      position: fixed;
       display: inline-block;
     }
 
