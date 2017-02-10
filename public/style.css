@@ -673,15 +673,20 @@ a.hover-text{
 
 
     #mylogo{
-      margin: 0;
+      /* margin: 0;
       position: absolute;
-      /* text-align: center; */
       left: 50%;
       right: 50%;
       top: 50%;
       bottom: 50%;
       display: block;
-      margin: 10px auto;
+      margin: 10px auto; */
+      height: auto;
+      width: 80%;
+      top: 50%;
+      left: 50%;
+      margin-left: 0px;
+      margin-top: 23px;
     }
 
    /*  .test{
