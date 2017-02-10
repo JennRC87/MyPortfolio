@@ -12,7 +12,6 @@ body {
   background-repeat: no-repeat;
   background-position: center 40px;
   background-attachment: fixed;
-  overflow: auto;
 }
 
 header {
@@ -643,10 +642,15 @@ a.hover-text{
 
     .container{
       height: 100%;
-      margin-bottom: 10%;
+      margin-bottom: 18%;
       position: absolute;
       overflow: auto;
-      background-color: pink;
+      background-color: green;
+      overflow: auto;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
     }
 
   }
