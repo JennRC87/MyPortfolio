@@ -660,6 +660,7 @@ a.hover-text{
       width: auto;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, 16%) }
+      margin-left: -99px;
+      margin-top: 60px;
     }
   }
