@@ -1,8 +1,8 @@
- html, body {
+/*  html, body {
     margin:0;
     padding:0;
     height:100%;
-  }
+  } */
 
 body {
   margin: 0px;
@@ -547,11 +547,9 @@ a.hover-text{
 
   ul.skills{
     margin: 0 auto;
-    margin: 12px 0 10px 0;
+    margin: 12px 0 0 0;
     text-align: center;
   }
-
-
 
    table{
 /*     display: block;
@@ -644,7 +642,7 @@ a.hover-text{
       min-height: 100vh;
       /* margin-bottom: 10%; */
       position: relative;
-      background-color: green;
+      background-color: pink;
     }
 
   }
