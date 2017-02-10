@@ -574,9 +574,11 @@ a.hover-text{
   }
 
   img.resume{
-    height: 60%;
+    height: 90%;
+    width: 70%;
     display: block;
     margin: 15% auto 0 auto;
+    border: 1px solid #C7C7C7;
   }
 
 
@@ -615,20 +617,12 @@ a.hover-text{
   }
 
   .workcouple{
-/*     display: block;
-    width: 83.33%;
-    position: relative;
-    top: 50%;
-    left: 62.5%;
-    transform: translate(-57%, 0%);
-    margin: 17px auto 0px auto; */
     top: 50%; /* IMPORTANT */
     left: 50%; /* IMPORTANT */
     display: block;
     position: relative;
     width: 83.33%;
-    /* height: 417px; */
-    /* margin-top: -208.5px; HALF OF THE HEIGHT */
+
     margin-left: -33.66%; /* HALF OF THE WIDTH */
   }
 
