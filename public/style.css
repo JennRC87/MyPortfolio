@@ -665,7 +665,9 @@ a.hover-text{
     }
 
     #mylogo{
-      margin: 0 auto;
+      margin: 0;
       text-align: center;
+      left: 0;
+      right: 0;
     }
   }
