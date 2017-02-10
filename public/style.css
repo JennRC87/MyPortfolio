@@ -675,4 +675,12 @@ a.hover-text{
       margin-left: auto;
       margin-right: auto
     }
+
+    .test{
+      height: 100px;
+      width: 39px;
+      background-color: pink;
+
+    }
+
   }
