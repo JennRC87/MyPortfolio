@@ -681,8 +681,8 @@ a.hover-text{
       bottom: 50%;
       display: block;
       margin: 10px auto; */
-      height: auto;
-      width: 214px;
+     /*  height: auto;
+      width: 214px; */
 /*       top: 50%;
       left: 50%;
       margin-left: 0%;
@@ -696,11 +696,11 @@ a.hover-text{
       transform: translate(-50%, -50%) */
 
 
-      display: block;
+ /*      display: block;
       position: relative;
       width: 83.33%;
-      margin-left: 0%; /* HALF OF THE WIDTH */
-      margin-top: 130px;
+      margin-left: 0%; HALF OF THE WIDTH
+      margin-top: 130px; */
 
     /*   top: 40%;
       left: 50%;
@@ -708,12 +708,12 @@ a.hover-text{
       margin-top: 0; */
     }
 
-   /*  .test{
-      position: static;
+    .test{
+      position: relative;
       height: 100px;
       width: 39px;
-      background-color: turquoise;
+      background-color: green;
 
-    } */
+    }
 
   }
