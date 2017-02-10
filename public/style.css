@@ -643,10 +643,10 @@ a.hover-text{
 
     .container{
       height: 100%;
-      margin-bottom: 30%;
+      margin-bottom: 10%;
       position: absolute;
       overflow: auto;
-      background-color: blue;
+      background-color: pink;
     }
 
   }
