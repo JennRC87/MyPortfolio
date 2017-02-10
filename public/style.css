@@ -216,10 +216,6 @@ iframe{
   height: 0px;
 }
 
-a.resumelink{
-  display: none;
-}
-
 img.smalllogo{
   width: 17px;
 }
@@ -582,19 +578,11 @@ a.hover-text{
   }
 
   img.resume{
-    /* width: 40%; */
     height: 60%;
     display: block;
-    margin: 0 auto 0 auto;
+    margin: 15% auto 0 auto;
   }
 
-  a.resumelink{
-    display: block;
-    color: #000;
-    text-align: center;
-    margin: 10% 0 3% 0;
-    font-size: 15px;
-  }
 
   .myworkpic, .aboutwork{
     width: 83.33%;
