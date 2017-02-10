@@ -690,10 +690,17 @@ a.hover-text{
       position: fixed;
       display: inline-block; */
 
-      top: 50%;
+   /*    top: 50%;
       left: 50%;
       margin-right: -50%;
-      transform: translate(-50%, -50%)
+      transform: translate(-50%, -50%) */
+
+
+      display: block;
+      position: relative;
+      width: 83.33%;
+      margin-left: 0%; /* HALF OF THE WIDTH */
+      margin-top: 130px;
 
     /*   top: 40%;
       left: 50%;
