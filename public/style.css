@@ -674,12 +674,15 @@ a.hover-text{
       display: block;
       margin: 10px auto;
     }
+    .logo{
+      text-align: center;
+    }
 
     .test{
       position: static;
       height: 100px;
       width: 39px;
-      background-color: yellow;
+      background-color: turquoise;
 
     }
 
