@@ -1,8 +1,8 @@
- html, body {
+/*  html, body {
     margin:0;
     padding:0;
     height:100%;
-  }
+  } */
 
 body {
   margin: 0px;
@@ -644,7 +644,7 @@ a.hover-text{
       height: 100vh;
       margin-bottom: 18%;
       position: relative;
-      background-color: teal;
+      background-color: brown;
       /* overflow: auto; */
     }
 
