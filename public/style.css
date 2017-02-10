@@ -664,6 +664,14 @@ a.hover-text{
       margin-top: 23px;
     }
 
+     .logo{
+      text-align: center;
+      margin: auto;
+      padding: 0;
+      width: 100%;
+    }
+
+
     #mylogo{
       margin: 0;
       position: absolute;
@@ -674,9 +682,6 @@ a.hover-text{
       bottom: 50%;
       display: block;
       margin: 10px auto;
-    }
-    .logo{
-      text-align: center;
     }
 
    /*  .test{
