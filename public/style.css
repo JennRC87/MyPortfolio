@@ -581,9 +581,11 @@ a.hover-text{
     left: 50%;
     /* margin-top: -40%; */
     margin-left: -35%;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
+  }
 
+  .iframe{
+   -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
   }
 
   .myworkpic, .aboutwork{
