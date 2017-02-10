@@ -134,7 +134,7 @@ table a{
 .myworkpic{
   width: 400px;
   height: 179px;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 15px 0px;
   margin-bottom: 0px;
 }
@@ -335,11 +335,7 @@ a.hover-text{
   margin: 0px 60px auto auto;
   /* left: 9%; */
   width: 400px;
-  transform: translate(0%, 8%)
-  }
-
-  .empty{
-    height: 56%;
+  transform: translate(0%, 18%)
   }
 
   table{
@@ -589,31 +585,25 @@ a.hover-text{
   }
 
  .myworkpic{
-    margin: 0;
-    padding-top: 0;
-    height: 80px;
+    margin: 0 0 -4px 0;
+    padding: 0;
+    height: auto;
   }
 
    .myworkpic img{
     width: 100%;
+    height: 100%
   }
 
   .aboutwork{
     padding: 0;
   }
 
-/*   .empty{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 5%;
-  } */
-
-      .empty{
-      position: relative;
-      margin-bottom: 1052px;
-      top: 0;
-    }
+  .empty{
+    position: relative;
+    margin-bottom: 1052px;
+    top: 0;
+  }
 
   .workdescrip a{
     font-size: 15px;
