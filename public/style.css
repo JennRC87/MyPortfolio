@@ -547,9 +547,8 @@ a.hover-text{
 
   ul.skills{
     margin: 0 auto;
-    margin: 12px 0 20px 0;
+    margin: 12px 0 10px 0;
     text-align: center;
-    overflow: auto;
   }
 
 
@@ -643,8 +642,9 @@ a.hover-text{
 
     .container{
       height: 100vh;
-      margin-bottom: 18%;
+      margin-bottom: 10%;
       position: relative;
+      background-color: purple;
     }
 
   }
