@@ -641,10 +641,10 @@ a.hover-text{
     }
 
     .container{
-      height: 100vh;
+      min-height: 140vh;
       margin-bottom: 10%;
       position: relative;
-      background-color: purple;
+      background-color: yellow;
     }
 
   }
