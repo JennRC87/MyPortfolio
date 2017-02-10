@@ -1,8 +1,8 @@
-/*  html, body {
+ html, body {
     margin:0;
     padding:0;
     height:100%;
-  } */
+  }
 
 body {
   margin: 0px;
@@ -640,9 +640,9 @@ a.hover-text{
 
     .container{
       min-height: 100vh;
-      /* margin-bottom: 10%; */
+      margin-bottom: 10%;
       position: relative;
-      /* background-color: pink; */
+      background-color: transparent;
     }
 
   }
