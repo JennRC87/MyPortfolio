@@ -560,7 +560,7 @@ a.hover-text{
     position: relative;
     right: 50%;
     left: -1%;
-    margin-top: 107px;
+    margin-top: 20%;
   }
 
   td{
@@ -609,6 +609,12 @@ a.hover-text{
     top: 5%;
   } */
 
+  /*     .empty{
+      position: relative;
+      margin-bottom: 1052px;
+      top: 0;
+    } */
+
   .workdescrip a{
     font-size: 15px;
   }
@@ -634,12 +640,6 @@ a.hover-text{
 
     .skillsu{
       padding-bottom: 8px;
-    }
-
-/*     .empty{
-      position: relative;
-      margin-bottom: 1052px;
-      top: 0; */
     }
 
     .container{
