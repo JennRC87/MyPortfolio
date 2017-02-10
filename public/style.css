@@ -549,7 +549,6 @@ a.hover-text{
     margin: 0 auto;
     margin: 12px 0 0 0;
     text-align: center;
-    bottom: 0;
   }
 
    table{
@@ -641,9 +640,9 @@ a.hover-text{
 
     .container{
       min-height: 100vh;
-      /* margin-bottom: 10%; */
+      margin-bottom: 10%;
       position: relative;
-      background-color: transparent;
+      background-color: pink;
     }
 
   }
