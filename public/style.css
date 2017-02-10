@@ -196,17 +196,17 @@ p.skillsu{
 margin: 0;
 }
 
-/* .empty{
+.empty{
   height: 100%;
   width: 100%;
   position: absolute;
   top: 85%;
 
-} */
+}
 
 iframe{
   width:48%;
-  height: 80%;
+  height: 525px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -338,9 +338,9 @@ a.hover-text{
   transform: translate(0%, 8%)
   }
 
- /*  .empty{
+  .empty{
     height: 56%;
-  } */
+  }
 
   table{
     margin: 170px 2px 2px 514px;
@@ -457,12 +457,12 @@ a.hover-text{
   table{
     margin: 114px 2px 2px 380px;
   }
-/*
+
   .empty{
     height: 65%;
     width: 100%;
     position: absolute;
-  } */
+  }
 
 }
 
@@ -609,11 +609,11 @@ a.hover-text{
     top: 5%;
   } */
 
-  /*     .empty{
+      .empty{
       position: relative;
       margin-bottom: 1052px;
       top: 0;
-    } */
+    }
 
   .workdescrip a{
     font-size: 15px;
