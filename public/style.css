@@ -685,9 +685,10 @@ a.hover-text{
       width: 245px;
       top: 50%;
       left: 50%;
-      margin-left: auto;
-      margin-top: auto;
+      margin-left: -27%;
+      margin-top: 32%;
       position: relative;
+      display: inline-block;
     }
 
    /*  .test{
