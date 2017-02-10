@@ -574,12 +574,22 @@ a.hover-text{
   }
 
   img.resume{
-    height: 90%;
+/*     height: 90%;
     width: 70%;
     display: block;
     margin: 15% auto 0 auto;
-    border: 1px solid #C7C7C7;
+    border: 1px solid #C7C7C7; */
+
+    top: 50%; /* IMPORTANT */
+    left: 50%; /* IMPORTANT */
+    display: block;
+    position: relative;
+    width: 75%;
+    height: 32%;
+    margin-left: -37.5%; /* HALF OF THE WIDTH */
+    margin-top: 16%;
   }
+
 
 
   .myworkpic, .aboutwork{
@@ -622,7 +632,6 @@ a.hover-text{
     display: block;
     position: relative;
     width: 83.33%;
-
     margin-left: -33.66%; /* HALF OF THE WIDTH */
   }
 
