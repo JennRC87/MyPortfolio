@@ -663,4 +663,9 @@ a.hover-text{
       margin-left: -99px;
       margin-top: 23px;
     }
+
+    #mylogo{
+      position: relative;
+      transform: translate(-50%, 64%);
+    }
   }
