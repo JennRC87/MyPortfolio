@@ -586,6 +586,7 @@ a.hover-text{
   .iframe{
    -webkit-overflow-scrolling: touch;
     overflow-y: scroll;
+    overflow: auto;
   }
 
   .myworkpic, .aboutwork{
