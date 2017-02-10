@@ -549,6 +549,7 @@ a.hover-text{
     margin: 0 auto;
     margin: 12px 0 20px 0;
     text-align: center;
+    overflow: auto;
   }
 
 
@@ -644,7 +645,6 @@ a.hover-text{
       height: 100vh;
       margin-bottom: 18%;
       position: relative;
-      background-color: lime;
     }
 
   }
