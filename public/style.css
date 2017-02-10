@@ -581,6 +581,7 @@ a.hover-text{
     left: 50%;
     /* margin-top: -40%; */
     margin-left: -35%;
+    overflow: scroll;
   }
 
   .myworkpic, .aboutwork{
