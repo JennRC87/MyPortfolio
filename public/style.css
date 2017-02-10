@@ -571,8 +571,8 @@ a.hover-text{
   }
 
   iframe{
-    height: 370px;
-    width: 80%;
+    height: 80%;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
