@@ -666,9 +666,9 @@ a.hover-text{
 
      .logo{
       text-align: center;
-      margin: auto;
+/*       margin: auto;
       padding: 0;
-      width: 100%;
+      width: 100%; */
     }
 
 
@@ -681,8 +681,8 @@ a.hover-text{
       bottom: 50%;
       display: block;
       margin: 10px auto; */
-     /*  height: auto;
-      width: 214px; */
+      height: auto;
+      width: 214px;
 /*       top: 50%;
       left: 50%;
       margin-left: 0%;
@@ -695,12 +695,12 @@ a.hover-text{
       margin-right: -50%;
       transform: translate(-50%, -50%) */
 
-
- /*      display: block;
-      position: relative;
+      margin: auto;
+      display: block;
+/*       position: relative;
       width: 83.33%;
-      margin-left: 0%; HALF OF THE WIDTH
-      margin-top: 130px; */
+      margin-left: 0%; HALF OF THE WIDTH */
+      /* margin-top: 130px; */
 
     /*   top: 40%;
       left: 50%;
@@ -709,10 +709,10 @@ a.hover-text{
     }
 
     .test{
-      position: relative;
+   /*    position: relative;
       height: 100px;
       width: 39px;
-      background-color: yellow;
+      background-color: green; */
 
     }
 
