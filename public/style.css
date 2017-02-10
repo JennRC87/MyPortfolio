@@ -666,6 +666,7 @@ a.hover-text{
 
     #mylogo{
       margin: 0;
+      position: absolute;
       /* text-align: center; */
       left: 50%;
       right: 50%;
