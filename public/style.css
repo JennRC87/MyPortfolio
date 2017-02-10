@@ -652,7 +652,7 @@ a.hover-text{
 
   }
 
-  @media only screen and (max-width: 321px) {
+  @media only screen and (max-width: 340px) {
 
     img.resume{
       /* margin: auto 0; */
@@ -664,12 +664,12 @@ a.hover-text{
       margin-top: 23px;
     }
 
-   /*   .logo{
+     .logo{
       text-align: center;
       margin: auto;
       padding: 0;
       width: 100%;
-    } */
+    }
 
 
     #mylogo{
@@ -681,18 +681,15 @@ a.hover-text{
       bottom: 50%;
       display: block;
       margin: 10px auto; */
-  /*     height: auto;
-      width: 80%; */
+      height: auto;
+      width: 80%;
       /* top: 25%; */
       /* left: 25%; */
-   /*    margin-left: 0px;
+      margin-left: 0px;
       margin-top: 23px;
-      text-align: center; */
+      text-align: center;
 
-      position: absolute;
-      right: 50%;
-      left: 48vw;
-      margin-top: 0vh;
+
     }
 
    /*  .test{
