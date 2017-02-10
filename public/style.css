@@ -676,9 +676,10 @@ a.hover-text{
     }
 
     .test{
+      position: static;
       height: 100px;
       width: 39px;
-      background-color: green;
+      background-color: yellow;
 
     }
 
