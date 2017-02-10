@@ -343,7 +343,7 @@ a.hover-text{
   }
 }
 
-@media only screen and (min-width: 451px) and (max-width: 800px) {
+@media only screen and (min-width: 481px) and (max-width: 800px) {
   body{
     background-position: 0 0;
   }
@@ -463,7 +463,7 @@ a.hover-text{
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
     body{
     background-position: 0 center;
   }
@@ -580,18 +580,23 @@ a.hover-text{
     margin: 15% auto 0 auto;
     border: 1px solid #C7C7C7; */
 
-    top: 50%;  /* IMPORTANT */
-    left: 50%; /* IMPORTANT */
+ /*    top: 50%;  IMPORTANT
+    left: 50%; IMPORTANT
     display: block;
     position: relative;
     width: 75%;
     height: 32%;
-    margin-left: -37.5%; /* HALF OF THE WIDTH */
+    margin-left: -37.5%; HALF OF THE WIDTH
     margin-top: 16%;
-
+    border: 1px solid #C7C7C7; */
+    left: 50%;
+    top: 50%;                         /* 3 */
+    transform: translate(-50%, 20%);
+    width: 75%;
+    height: 32%;
+    position: relative;
+    border: 1px solid #C7C7C7;
   }
-
-
 
   .myworkpic, .aboutwork{
     width: 83.33%;
