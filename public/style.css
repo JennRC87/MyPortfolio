@@ -16,6 +16,7 @@ body {
 header {
   background-color: #FFF;
   padding-top: 10px;
+  position: relative;
 }
 
 ul{
