@@ -329,13 +329,19 @@ a.hover-text{
 @media only screen and (min-width: 801px) and (max-width: 1050px) {
 
   body{
-    background-position: -133px 0px;
+    background-position: 0px 0px;
 
   }
 
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1050px) {
+
+
+  #mylogo{
+    width: 80vw;
+    height: auto
+  }
 
   .workcouple{
   position: relative;
