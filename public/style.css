@@ -1,7 +1,7 @@
  html, body {
     margin:0;
     padding:0;
-    /* height:100%; */
+    background-size: cover;
   }
 
 body {
@@ -170,8 +170,8 @@ table a{
 }
 
 #mylogo{
-  width: 40vw;
-  height: auto;
+  width: auto;
+  height: 50vh;
   margin: auto;
   position: relative;
   top: 50%;
@@ -352,6 +352,7 @@ a.hover-text{
 @media only screen and (min-width: 481px) and (max-width: 800px) {
   body{
     background-position: 0 0;
+    background-size: cover;
   }
 
   footer{
@@ -468,6 +469,7 @@ a.hover-text{
 @media only screen and (max-width: 480px) {
     body{
     background-position: 0 center;
+    background-size: cover;
   }
 
   header{
