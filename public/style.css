@@ -206,6 +206,7 @@ p.builtw{
 
 p.skillsu{
 margin: 0;
+padding: 0 10px;
 }
 
 .empty{
@@ -327,17 +328,12 @@ a.hover-text{
   padding: 30px 50px 10px 0px;
 }
 
+
 @media only screen and (min-width: 801px) and (max-width: 1050px) {
 
   body{
     background-position: 0px 0px;
-
   }
-
-}
-
-@media only screen and (min-width: 801px) and (max-width: 1050px) {
-
 
   #mylogo{
     width: 80vw;
@@ -382,6 +378,10 @@ a.hover-text{
     display: inline;
     word-spacing: 40px;
     font-size: px;
+  }
+
+  #mylogo{
+    height: 38vh;
   }
 
   p.aboutme {
@@ -526,11 +526,11 @@ a.hover-text{
   h3{
     margin: 10px 0 0 11px;
     text-align: left;
-    font-size: 23px
+    font-size: 23px;
   /*   position: absolute; */
     /* left: 20px; */
     /* margin-top: 23px; */
-    font-size: 23px
+    font-size: 23px;
   }
 
   br{
@@ -538,12 +538,10 @@ a.hover-text{
   }
 
   .skills{
-    margin: 0;
     font-size: 15px;
-    margin-top: 45px;
     position: absolute;
     left: 50%;
-    transform: translate( -50%, 0);
+    margin: 2% 0 11% -50%;
   }
 
   .skills li{
@@ -552,12 +550,6 @@ a.hover-text{
     display: block;
     width: 120px;
     margin: 3px 0;
-  }
-
-  ul.skills{
-    margin: 0 auto;
-    margin: 12px 0 0 0;
-    text-align: center;
   }
 
    table{
@@ -653,12 +645,12 @@ a.hover-text{
       padding-bottom: 8px;
     }
 
-    .container{
-      min-height: 100vh;
+ /*    .container{
+      min-height: 100%;
       margin-bottom: 10%;
       position: relative;
       background-color: pink;
-    }
+    } */
 
   }
 
