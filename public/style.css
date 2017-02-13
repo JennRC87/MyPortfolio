@@ -541,7 +541,8 @@ a.hover-text{
     font-size: 15px;
     position: absolute;
     left: 50%;
-    margin: 2% 0 11% -50%;
+    margin: 2% 0 21% -50%;
+    background-color: green;
   }
 
   .skills li{
