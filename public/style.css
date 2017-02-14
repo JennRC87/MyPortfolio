@@ -3,6 +3,10 @@
     padding:0;
   }
 
+  body{
+    overflow: hidden;
+  }
+
 html{
   margin: 0px;
   background-color: #FFF;
@@ -12,7 +16,6 @@ html{
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
-  overflow: hidden;
 }
 
 header{
