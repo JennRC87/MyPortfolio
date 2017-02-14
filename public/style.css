@@ -64,10 +64,6 @@ h3{
   margin: 0px 0px 16px 40px ;
 }
 
-h3, ul.skills{
-  margin-left: -60px;
-}
-
 ul.skills{
   padding: 0px;
 }
@@ -539,10 +535,14 @@ a.hover-text{
 
   .skills{
     font-size: 15px;
-    position: absolute;
+    position: static;
+    margin: 0 auto;
     left: 50%;
-    margin: 2% 0 21% -50%;
-    background-color: green;
+    right: 50%;
+    margin: 2% 0 13% -50%;
+    background-color: red;
+    text-align: center;
+    margin-left: 25%;
   }
 
   .skills li{
@@ -646,7 +646,7 @@ a.hover-text{
       padding-bottom: 8px;
     }
 
- /*    .container{
+/*     .container{
       min-height: 100%;
       margin-bottom: 10%;
       position: relative;
