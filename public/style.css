@@ -1,23 +1,19 @@
- html, body {
+ html, body{
     margin:0;
     padding:0;
   }
 
-html {
+html{
   margin: 0px;
   background-color: #FFF;
   background-image: url('../images/smokeeffect.jpg');
   background-repeat: no-repeat;
   background-position: center 40px;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
 }
 
-header {
+header{
   background-color: #FFF;
   padding-top: 10px;
   position: relative;
@@ -113,7 +109,7 @@ footer p{
   word-spacing: 2px;
 }
 
-table {
+table{
   color: #000;
   font-size: 21px;
   margin: 0 auto;
@@ -356,7 +352,6 @@ a.hover-text{
 @media only screen and (min-width: 481px) and (max-width: 800px) {
   html{
     background-position: 0 0;
-    background-size: cover;
   }
 
   footer{
@@ -477,7 +472,6 @@ a.hover-text{
 @media only screen and (max-width: 480px) {
     html{
     background-position: 0 center;
-    background-size: cover;
   }
 
   header{
