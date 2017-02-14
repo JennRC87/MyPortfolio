@@ -11,6 +11,7 @@ html{
   background-position: center 40px;
   background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
 }
 
 header{
