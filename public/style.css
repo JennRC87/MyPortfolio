@@ -335,9 +335,8 @@ a.hover-text{
     background-position: 0px 0px;
   }
 
-  #mylogo{
-    width: 80vw;
-    height: auto
+  header ul{
+    word-spacing: 80px;
   }
 
   .workcouple{
