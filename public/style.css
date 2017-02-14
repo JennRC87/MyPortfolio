@@ -536,15 +536,10 @@ a.hover-text{
   .skills{
     font-size: 15px;
     position: relative;
-    /* margin: 0 auto; */
     left: 50%;
     margin-bottom: 10%;
-    /* right: 50%; */
-    /* margin: 2% 0 13% 38%; */
     display: inline-block;
-    /* transform: translate(-50%, -50%); */
     transform: translate(-50%, -5%);
-    background-color: red;
   }
 
   .skills li{
