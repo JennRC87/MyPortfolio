@@ -336,6 +336,10 @@ a.hover-text{
     word-spacing: 80px;
   }
 
+  .aboutme{
+    width: 300px;
+  }
+
   .workcouple{
   position: relative;
   float: left;
@@ -650,9 +654,7 @@ a.hover-text{
 
   }
 
-  @media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
+  @media only screen and (max-width: 480px) {
 
     img.resume{
       /* margin: auto 0; */
