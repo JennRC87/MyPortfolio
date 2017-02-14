@@ -535,13 +535,13 @@ a.hover-text{
 
   .skills{
     font-size: 15px;
-    position: static;
+    position: absolute;
     margin: 0 auto;
-    left: 50%;
-    right: 50%;
+    left: 81%;
+    /* right: 50%; */
     margin: 2% 0 13% -50%;
     text-align: center;
-    margin-left: 21vh;
+    /* margin-left: 21vh; */
   }
 
   .skills li{
