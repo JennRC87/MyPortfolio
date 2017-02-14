@@ -544,6 +544,7 @@ a.hover-text{
     display: inline-block;
     /* transform: translate(-50%, -50%); */
     transform: translate(-50%, -5%);
+    background-color: red;
   }
 
   .skills li{
