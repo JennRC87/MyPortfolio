@@ -535,13 +535,15 @@ a.hover-text{
 
   .skills{
     font-size: 15px;
-    position: static;
-    margin: 0 auto;
-    left: 81%;
+    position: relative;
+    /* margin: 0 auto; */
+    left: 50%;
+    margin-bottom: 10%;
     /* right: 50%; */
-    margin: 2% 0 13% -50%;
-    text-align: center;
-    margin-left: 21vh;
+    /* margin: 2% 0 13% 38%; */
+    display: inline-block;
+    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, -5%);
   }
 
   .skills li{
@@ -588,7 +590,7 @@ a.hover-text{
     position: relative;
     width: 75%;
     height: 44%;
-    margin-left: -37.5%; /* HALF OF THE WIDT */H
+    margin-left: -37.5%; /* HALF OF THE WIDT */
     margin-top: 16%;
     margin-top: 22%;
     border: 1px solid #C7C7C7;
