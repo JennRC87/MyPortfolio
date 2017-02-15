@@ -3,10 +3,6 @@
     padding:0;
   }
 
-  body{
-    overflow: hidden;
-  }
-
 html{
   margin: 0px;
   background-color: #FFF;
@@ -162,6 +158,13 @@ table a{
   left: 9%;
   width: 400px;
 }
+
+  .wrapper{
+    position: absolute;
+    top: 0px;
+    margin-bottom: 5%;
+  }
+
 
 .indexcontainer{
   width: 90vw;
@@ -644,6 +647,16 @@ a.hover-text{
     width: 83.33%;
     margin-left: -33.66%; /* HALF OF THE WIDTH */
   }
+    .wrapper{
+    margin-bottom: 15%;
+  }
+
+/*   .wrapper{
+    position: absolute;
+    top: 0px;
+    background-color: purple;
+    margin-bottom: 13%;
+  } */
 
     .seperation{
       padding: 8px 7px 0 7px;
