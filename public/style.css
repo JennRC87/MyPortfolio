@@ -177,8 +177,8 @@ table a{
 }
 
 #mylogo{
-  width: auto;
-  height: 50vh;
+  height: auto;
+  width: 85vw;
   margin: auto;
   position: relative;
   top: 50%;
@@ -359,6 +359,10 @@ a.hover-text{
   table{
     margin: 170px 2px 2px 514px;
   }
+
+   #mylogo{
+    /* height: 38vh; */
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 800px) {
@@ -387,7 +391,7 @@ a.hover-text{
   }
 
   #mylogo{
-    height: 38vh;
+    /* height: 38vh; */
   }
 
   p.aboutme {
@@ -512,8 +516,8 @@ a.hover-text{
 
 
   #mylogo{
-    width: 80vw;
-    height: auto
+ /*    width: 80vw;
+    height: auto */
   }
 
   a.hover-text{
